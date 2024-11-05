@@ -77,10 +77,10 @@
     z-index: 4; 
   }
   
-  .logo-container img {
+.logo-container img {
     width: 200px; 
     height: auto;
-  }
+}
 
 .content-container {
     position: relative;
@@ -114,8 +114,6 @@
 
 .shape {
     position: absolute;
-    height: 200px;
-    width: 200px;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: transparent;
@@ -123,54 +121,72 @@
 }
 
 .shape1 {
+    height: 200px;
+    width: 200px;
     background-image: url('../assets/images/object1.png');
     animation: move1 12s linear infinite;
     transform: translate(10vw, 20vh); 
 }
 
 .shape2 {
+    height: 100px;
+    width: 100px;
     background-image: url('../assets/images/object2.png');
     animation: move2 10s linear infinite;
     transform: translate(30vw, 40vh); 
 }
 
 .shape3 {
+    height: 150px;
+    width: 150px;
     background-image: url('../assets/images/object3.png');
     animation: move3 14s linear infinite;
     transform: translate(50vw, 60vh); 
 }
 
 .shape4 {
+    height: 200px;
+    width: 200px;
     background-image: url('../assets/images/object4.png');
     animation: move4 8s linear infinite;
     transform: translate(70vw, 80vh); 
 }
 
 .shape5 {
+    height: 75px;
+    width: 75px;
     background-image: url('../assets/images/object5.png');
     animation: move5 16s linear infinite;
     transform: translate(20vw, 30vh); 
 }
 
 .shape6 {
+    height: 200px;
+    width: 200px;
     background-image: url('../assets/images/object6.png');
     animation: move6 9s linear infinite;
     transform: translate(40vw, 50vh); 
 }
 
 .shape7 {
+    height: 200px;
+    width: 200px;
     background-image: url('../assets/images/object7.png');
     animation: move7 11s linear infinite;
     transform: translate(60vw, 70vh); 
 }
 
 .shape8 {
+    height: 170px;
+    width: 170px;
     background-image: url('../assets/images/object8.png');
     animation: move8 13s linear infinite;
     transform: translate(80vw, 20vh); 
 }
 
 .shape9 {
+    height: 75px;
+    width: 75px;
     background-image: url('../assets/images/object9.png');
     animation: move9 15s linear infinite;
     transform: translate(90vw, 40vh); 
@@ -365,3 +381,5 @@
     transform: translateX(-50%) scale(1.1);
   }
   
+
+
