@@ -34,7 +34,7 @@ footer {
   }
   footer .social_icon li a:hover {
     transform: translateY(-15px);
-    color: blue;
+    color: #2f2f9a;
   }
   
   footer .menu li a {
@@ -119,4 +119,3 @@ footer {
   }
 
   
-  /* #21DADB, color 2: #35BBDF, color 3: #4D94E6 */

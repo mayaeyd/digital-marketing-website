@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Abril';
+  src: url(./../assets/fonts/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+  font-family: "YDYoonche L";
+  src: url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.eot");
+  src: url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.svg#YDYoonche L")format("svg");
+}
+
 :root {
     --cards: 4;
     --cardHeight: 87vh;
@@ -5,12 +20,12 @@
     --cardMargin: 4vw;
   }
   
-  .expertise-container {
+  .cards-container {
     width: 80%;
     margin: 0 auto;
   }
   
-  #expertise-cards {
+  #cards {
     list-style: none;
     padding-left: 0;
     display: grid;
@@ -55,14 +70,31 @@
 
     /* #21DADB, color 2: #35BBDF, color 3: #4D94E6 */
   
-  .card-body {
-    box-sizing: border-box;
-    padding: 30px;
-    border-radius: 50px;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
-    height: var(--cardHeight);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s;
-  }
+.card-body {
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+  height: var(--cardHeight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  color: white;
+}
+
+.card-body h2{
+ font-family: 'Abril';
+ font-size: 2rem;
+}
+
+.card-info-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-info-container p{
+  font-family: 'YDYoonche L';
+  font-size: 0.9rem;
+}
