@@ -10,6 +10,16 @@
     src: url(./../assets/fonts/AbrilFatface-Regular.ttf);
 }
 
+@font-face {
+    font-family: "YDYoonche L";
+    src: url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.eot");
+    src: url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/eca789b1f96f573e30ab702ecadf0736.svg#YDYoonche L")format("svg");
+}
+
 .wrapper,
 .content {
     position: relative;
@@ -100,7 +110,6 @@
     height: 100vh;
     width: 100%;
     z-index: -1;
-    filter: blur(3px);
 }
 
 .shape {
@@ -331,3 +340,28 @@
     }
 }
 
+
+.scroll-button {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .scroll-button:hover {
+    transform: translateX(-50%) scale(1.1);
+  }
+  

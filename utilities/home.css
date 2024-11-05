@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Abril';
+    src: url(./../assets/fonts/AbrilFatface-Regular.ttf);
+}
+
+.gradient-purple>h1{
+    color: white;
+    font-family: 'Abril';
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.gradient-purple>p{
+    max-width: 70%;
+    font-family: 'YDYoonche L';
+    font-weight: lighter;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 1.5rem;
+}

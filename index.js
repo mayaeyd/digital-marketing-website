@@ -86,6 +86,10 @@ $(".section2").each(function() {
   console.log(currentTrigger);
 });
 
+function scrollToNextSection() {
+  const nextSection = document.querySelector('.about');
+  nextSection.scrollIntoView({ behavior: 'smooth' });
+}
 
 
   
