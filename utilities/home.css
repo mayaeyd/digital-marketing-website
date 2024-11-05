@@ -8,17 +8,24 @@
     font-family: 'Abril';
     text-align: center;
     font-size: 2.5rem;
-    margin-top: 40px;
+    margin-top: 50px;
     letter-spacing: 1px;
 }
 
-.gradient-purple>p{
+.gradient-purple div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.gradient-purple p{
     max-width: 70%;
     font-family: 'YDYoonche L';
     font-weight: lighter;
     font-style: normal;
-    color: white;
     text-align: center;
+    color: white;
     margin-top: 70px;
     font-size: 1.5rem;
 }
