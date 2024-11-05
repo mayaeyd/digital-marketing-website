@@ -39,10 +39,10 @@ var $body = $("body");
 
 //  store color values for each section
 var colors = [
-  { left: "#1abfea", middle: "#c471ed", right: "#f4515e" },
+  { left: "#3586ff", middle: "#c471ed", right: "#3586ff" },
   { left: "#45a247", middle: "#4c879b", right: "#4c879b" },
   { left: "white", middle: "white", right: "white" },
-  { left: "#37ccfd", middle: "#b32fff", right: "#b32fff" }
+  { left: "#3586ff", middle: "#3586ff", right: "#3586ff" }
 ];
 
 for (let i = 0; i < colors.length; i++) {
@@ -85,6 +85,11 @@ $(".section2").each(function() {
   var currentTrigger = $(scene.triggerElement()).attr("id");
   console.log(currentTrigger);
 });
+
+function scrollToNextSection() {
+  const nextSection = document.querySelector('.about');
+  nextSection.scrollIntoView({ behavior: 'smooth' });
+}
 
 function scrollToNextSection() {
   const nextSection = document.querySelector('.about');
