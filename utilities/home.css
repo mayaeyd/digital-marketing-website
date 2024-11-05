@@ -3,7 +3,7 @@
     src: url(./../assets/fonts/AbrilFatface-Regular.ttf);
 }
 
-.gradient-purple>h1{
+.subtitle{
     color: white;
     font-family: 'Abril';
     text-align: center;
